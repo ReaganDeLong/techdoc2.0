@@ -1,0 +1,60 @@
+@media {
+    
+}
+
+header {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    left: 0px;
+}
+
+nav {
+    display: block;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 25%;
+    width: 30%;
+    border-right: 1px solid gray;
+    height: 100%;
+}
+
+#navbar ul {
+    list-style-type: none;
+    overflow-y: auto;
+    overflow-x: fixed;
+    height: 88%;
+}
+
+#navbar li {
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid gray;
+    font-size: 20px;
+    position: relative;
+    width: 100%;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    display: block;
+}
+
+main {
+    position: absolute;
+    margin-left: 31%;
+    margin-right: 2%;
+    line-height: 1.5
+}
+
+code {
+    display: block;
+    position: relative;
+    background-color: #dadfe6;
+    padding: 15px;
+    margin: 10px;
+}
